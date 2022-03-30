@@ -1,0 +1,41 @@
+/* Folha de estilo por Pedro Nunes */
+
+.nav-link, .dropdown-item{
+  color: white !important;
+  }
+
+.active{
+  background-color: #4d4dff;
+  border-radius: 5px;
+}
+
+.nav-link:hover:not(.active), .dropdown-item:hover{
+  background-color: #be3aee;
+  border-radius: 5px;
+  color: white !important;
+}
+
+.bg-imagem{
+  height: 48vw;
+  background-image: url(https://cdn.pixabay.com/photo/2015/01/08/18/24/children-593313_960_720.jpg);
+  backgorund-repeat: no-repeat;
+  background-size: cover;
+  }
+
+.bg-imagem p{
+  font-size: 4vw;
+  text-shadow: 4px 4px 8px black;
+  }
+
+#agenda th{
+  font-size: 1.5vw;
+  }
+
+#agenda td{
+  height: 100px;
+/* 100% / 7 colunas */
+  width: 14.29%;
+}
+.bg-info{
+  background-color: #09f109 !important;
+}
